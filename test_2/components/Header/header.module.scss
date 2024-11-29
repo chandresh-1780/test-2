@@ -1,0 +1,179 @@
+.headerMainDiv {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(135deg, #6C5CE7 0%, #A29BFE 100%);
+}
+
+.headerSubDiv {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 58px 20px;
+}
+
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  a {
+    padding: 2px 22px;
+    color: #FFB400;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-right: 6px solid #FFB400;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 1599px) {
+  .container {
+    max-width: 1280px !important;
+  }
+
+  /* Check 1367px and add css here */
+  .headerSubDiv {
+    padding: 44px 20px;
+  }
+
+  .navList {
+    a {
+      font-size: 40px;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 1366px) {
+  .container {
+    max-width: 1121px !important;
+  }
+
+  /* Check 1200px and add css here */
+  .headerSubDiv {
+    padding: 40px 20px;
+  }
+
+  .navList {
+    a {
+      font-size: 32px;
+      border-right: 4px solid #FFB400;
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .container {
+    max-width: 940px !important;
+  }
+
+  /* Check 1025px and add css here */
+  .headerSubDiv {
+    padding: 38px 20px;
+  }
+
+  .navList {
+    a {
+      font-size: 32px;
+      border-right: 4px solid #FFB400;
+      padding: 1px 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 100% !important;
+    padding: 0 30px;
+  }
+
+  /* Check 768px and add css here */
+  .headerSubDiv {
+    padding: 30px 20px;
+  }
+
+  .navList {
+    a {
+      font-size: 26px;
+      border-right: 3px solid #FFB400;
+      padding: 1px 14px;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  /* Check 480px and add css here */
+  .headerSubDiv {
+    padding: 23px 20px;
+  }
+
+  .navList {
+    a {
+      font-size: 20px;
+      border-right: 2px solid #FFB400;
+      padding: 0px 10px;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 525px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .headerMainDiv {
+    display: none;
+  }
+
+  /* Check 375px and add css here */
+  .headerSubDiv {
+    padding: 30px 20px;
+  }
+
+  .navList {
+    a {
+      border-right: 2px solid #FFB400;
+      padding: 0px 10px;
+      font-size: 18px;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 374px) {
+
+  /* Check 320px and add css here */
+  .headerSubDiv {
+    padding: 24px 20px;
+  }
+
+  .navList {
+    a {
+      border-right: 2px solid #FFB400;
+      padding: 0px 10px;
+      font-size: 16px;
+    }
+  }
+
+}

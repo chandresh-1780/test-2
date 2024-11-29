@@ -1,0 +1,452 @@
+.contentMainDiv {
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+.contentContainer {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 130px 10px 175px 10px;
+}
+
+
+
+.testSection {
+    width: 100%;
+    margin-bottom: 140px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.questionContent {
+    p {
+        color: #6C5CE7;
+        text-align: justify;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.registrationForm {
+    max-width: 670px;
+    margin: 0 auto;
+    text-align: center;
+
+    h2 {
+        color: #6C5CE7;
+        text-align: center;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 60px;
+    }
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    input {
+        padding: 2px 16px;
+        border: none;
+        border-radius: 50px;
+        background: #A29BFE;
+        font-size: 40px;
+        width: 100%;
+        color: #FFF;
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: lowercase;
+        font-family: "Poppins", serif;
+
+        &::placeholder {
+            color: #FFF;
+            text-align: center;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 300;
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(85, 60, 154, 0.3);
+        }
+    }
+
+}
+
+.formBtm {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+
+    p {
+        color: #6C5CE7;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        // text-transform: lowercase;
+    }
+}
+
+.formBtmBtn {
+    border: none;
+    border-radius: 50px;
+    background: #FFB400;
+    padding: 4px 65px;
+    color: #F5F6FA;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-family: "Poppins", serif;
+
+    &:hover {
+        background-color: #ffed4a;
+    }
+}
+
+
+@media only screen and (max-width: 1599px) {
+    .contentContainer {
+        max-width: 1080px !important;
+        padding: 110px 10px 165px 10px;
+    }
+
+    /* Check 1367px and add css here */
+    .testSection {
+        margin-bottom: 100px;
+    }
+
+    .questionContent {
+        p {
+            font-size: 40px;
+        }
+    }
+
+    .registrationForm {
+        max-width: 560px;
+
+        h2 {
+            font-size: 50px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .form {
+        gap: 40px;
+
+        input {
+            padding: 4px 16px;
+            font-size: 34px;
+
+            &::placeholder {
+                font-size: 34px;
+            }
+        }
+    }
+
+    .formBtm {
+        p {
+            font-size: 34px;
+        }
+    }
+
+    .formBtmBtn {
+        padding: 4px 58px;
+        font-size: 34px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1366px) {
+    .contentContainer {
+        max-width: 1000px !important;
+        padding: 100px 10px 150px 10px;
+    }
+
+    /* Check 1200px and add css here */
+    .questionContent {
+        p {
+            font-size: 38px;
+        }
+    }
+
+    .testSection {
+        margin-bottom: 80px;
+    }
+
+    .registrationForm {
+        max-width: 560px;
+
+        h2 {
+            font-size: 44px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .form {
+        gap: 40px;
+
+        input {
+            padding: 4px 16px;
+            font-size: 32px;
+
+            &::placeholder {
+                font-size: 32px;
+            }
+        }
+    }
+
+    .formBtm {
+        p {
+            font-size: 32px;
+        }
+    }
+
+    .formBtmBtn {
+        padding: 4px 58px;
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .contentContainer {
+        max-width: 940px !important;
+        padding: 90px 10px 140px 10px;
+    }
+
+    /* Check 1025px and add css here */
+
+
+    .questionContent {
+        p {
+            font-size: 32px;
+        }
+    }
+
+    .testSection {
+        margin-bottom: 60px;
+    }
+
+    .registrationForm {
+        max-width: 470px;
+
+        h2 {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .form {
+        gap: 40px;
+
+        input {
+            padding: 2px 16px;
+            font-size: 28px;
+
+            &::placeholder {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .formBtm {
+        p {
+            font-size: 28px;
+        }
+    }
+
+    .formBtmBtn {
+        padding: 4px 50px;
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .contentContainer {
+        max-width: 850px !important;
+        padding: 80px 30px;
+    }
+
+    /* Check 768px and add css here */
+    .testSection {
+        margin-bottom: 90px;
+    }
+
+    .questionContent {
+        p {
+            font-size: 28px;
+        }
+    }
+
+    .testSection {
+        margin-bottom: 50px;
+    }
+
+    .registrationForm {
+        max-width: 470px;
+
+        h2 {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .form {
+        gap: 35px;
+
+        input {
+            padding: 2px 16px;
+            font-size: 26px;
+
+            &::placeholder {
+                font-size: 26px;
+            }
+        }
+    }
+
+    .formBtm {
+        p {
+            font-size: 28px;
+        }
+    }
+
+    .formBtmBtn {
+        padding: 4px 44px;
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .contentContainer {
+        max-width: 850px !important;
+        padding: 80px 30px;
+    }
+
+    /* Check 480px and add css here */
+    .testSection {
+        margin-bottom: 70px;
+    }
+
+    .questionContent {
+        p {
+            font-size: 24px;
+        }
+    }
+
+    .testSection {
+        margin-bottom: 50px;
+    }
+
+    .registrationForm {
+        max-width: 470px;
+
+        h2 {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .form {
+        gap: 35px;
+
+        input {
+            padding: 2px 16px;
+            font-size: 26px;
+
+            &::placeholder {
+                font-size: 26px;
+            }
+        }
+    }
+
+    .formBtm {
+        p {
+            font-size: 24px;
+        }
+    }
+
+    .formBtmBtn {
+        padding: 4px 30px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Check 375px and add css here */
+    .questionContent {
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .testSection {
+        margin-bottom: 50px;
+    }
+
+    .registrationForm {
+        max-width: 240px;
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .form {
+        gap: 13px;
+
+        input {
+            padding: 8px 16px;
+            font-size: 18px;
+
+            &::placeholder {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .formBtm {
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .formBtmBtn {
+        width: 100%;
+        padding: 8px 30px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    /* Check 320px and add css here */
+
+}
